@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-bionic AS build
+FROM mcr.microsoft.com/dotnet/sdk:3.0 AS build
 
 # Copy csproj and restore as distinct layers
 COPY ./GCPWebAPI/GCPWebAPI.csproj ./GCPWebAPI/GCPWebAPI.csproj
@@ -9,7 +9,7 @@ RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o build --no-restore
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic
+FROM mcr.microsoft.com/dotnet/sdk:3.0
 WORKDIR /app
 COPY --from=build ./build .
 ENV ASPNETCORE_URLS=http://*:8080
