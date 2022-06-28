@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZWT4tNVuMnOybMlhAMEW0gjzINo3j3uJFDUdLQC9KvziRW+iXMfmtHgWTFzNNgCeiHL6WMoTo9OSz4T0ZADeOw==",
+  "dgSpecHash": "HzBkBap9RX68JOWcQ3toUNDjh+7whFVYpRm2cohZQ2KsaAIeIjsKA6IdONS6zGzgnwOxPdJf35LgtLiv36WrpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ktrasler\\source\\dev\\GCP\\GCPWebAPI\\GCPWebAPI\\GCPWebAPI.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ktrasler\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\ktrasler\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\ktrasler\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
-    "C:\\Users\\ktrasler\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
-    "C:\\Users\\ktrasler\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
-    "C:\\Users\\ktrasler\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
