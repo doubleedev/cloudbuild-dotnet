@@ -11,7 +11,7 @@ RUN dotnet publish -c Release -o /app/
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic
 WORKDIR /app
-COPY --from=build ./build .
+COPY --from=build ./app .
 ENV ASPNETCORE_URLS=http://*:8080
 EXPOSE 8080
 ENTRYPOINT [ "dotnet", "GCPWebAPI.dll" ]
